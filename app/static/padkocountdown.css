@@ -1,0 +1,23 @@
+body{
+	background-image: url("bckgrnd.jpg");
+	font-family: "Open Sans";
+}
+
+.countdown{
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+}
+
+.credits{
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+	font-size: 20px;
+}

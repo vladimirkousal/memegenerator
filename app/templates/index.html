@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>{{ title }} - Hlavní stránka</title>
+    </head>
+    <body>
+        <div>
+        	{% extends "base.html" %}
+
+			{% block content %}
+			{% if current_user.is_anonymous %}
+			<h1>Vítej, uživateli!</h1>
+			{% else %}
+    		<h1>Vítej, {{ current_user.username }}!</h1>
+    		{% endif %}
+    		{% for post in posts %}
+    		<div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+    		{% endfor %}
+			{% endblock %}
+		</div>
+    </body>
+</html>

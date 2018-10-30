@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>V1C Rozvrh</title>
+	<link rel="stylesheet" type="text/css" href="rozvrh.css">
+	<link rel= "stylesheet" type= "text/css" href= "../static/rozvrh.css">
+</head>
+
+<body>
+	{% extends "base.html" %}
+	{% block content %}
+	<h1 class="nadpis" id="nabidka">Třídní rozvrh</h1>
+	<div class="nabidka">
+	<a href="{{ url_for("countdown") }}">Chceš vědět, kdy je PaDko?</a><br>
+	<a href="#rustina">Jazyky</a><br>
+  	</div>
+	<h2>Skupina A</h2>
+ <table class="A1">
+ 	<th>Čas<br>Den</th>
+ 	<th>0<br>7/10 - 7/55</th>
+ 	<th>1<br>8/00 - 8/45</th>
+ 	<th>2<br>8/55 - 9/40</th>
+ 	<th>3<br>10/00 - 10/45</th>
+ 	<th>4<br>10/55 - 11/40</th>
+ 	<th>5<br>11/50 - 12/35</th>
+ 	<th>6<br>12-45 - 13/30</th>
+ 	<th>7<br>13/40 - 14/25</th>
+ 	<th>8<br>14/35 - 15/20</th>
+
+ 	<tr>
+ 		<th>Pondělí</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th class="dostdobry">AJ 2</th>
+ 		<th class="nicmoc">M 13</th>
+ 		<th class="dostdobry">ASW 27</th>
+ 		<th class="dostdobry">ASW 27</th>
+ 		<th class="nicmoc">TVy 7</th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Úterý</th>
+ 		<th class="nicmoc">ČJ 14</th>
+ 		<th class="nicmoc">M  14</th>
+ 		<th class="nicmoc">F  14</th>
+ 		<th class="dostdobry">AJ ST</th>
+ 		<th class="dostdobry">Volno</th>
+ 		<th class="nicmoc">TeA 1</th>
+ 		<th class="dostdobry">PaD 43</th>
+ 		<th class="dostdobry">PaD 43</th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Středa</th>
+ 		<th></th>
+ 	    <th class="nicmoc">ČJ 18</th>
+ 	    <th class="dostdobry">NJ 10</th>
+ 	    <th class="nicmoc">DJ 7</th>
+ 	    <th class="nicmoc">TeA 1</th>
+ 	    <th class="dostdobry">Volno</th>
+ 	    <th class="nicmoc">Fy 34</th>
+ 	    <th class="velkyspatny">Kilásek</th>
+ 	    <th class="velkyspatny">ZaE 34</th>
+
+ 	</tr>
+
+ 	<tr>
+ 		<th>Čtvrtek</th>
+ 		<th class="nicmoc">TVy 26</th>
+ 		<th class="nicmoc">TVy 26</th>
+ 		<th class="velkyspatny">GrW 47</th>
+ 		<th class="velkyspatny">GrW 47</th>
+ 		<th class="dostdobry">NJ 10</th>
+ 		<th class="nicmoc">PaD 1</th>
+ 		<th class="dostdobry">AJ 2</th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Pátek</th>
+ 		<th></th>
+ 		<th class="nicmoc">M 20</th>
+ 		<th class="dostdobry">Kilásek</th>
+ 		<th class="velkyspatny">ZaE 46</th>
+ 		<th class="dostdobry">ASW 16</th>
+ 		<th class="nicmoc">ČJ 16</th>
+ 		<th class="nicmoc">M 16</th>
+ 		<th class="nicmoc">D 16</th>
+ 		<th></th>
+ 	</tr>
+ </table>
+
+
+
+
+
+ <h2>Skupina B</h2>
+  <table class="B1">
+  	<th>Čas<br>Den</th>
+ 	<th>0<br>7/10 - 7/55</th>
+ 	<th>1<br>8/00 - 8/45</th>
+ 	<th>2<br>8/55 - 9/40</th>
+ 	<th>3<br>10/00 - 10/45</th>
+ 	<th>4<br>10/55 - 11/40</th>
+ 	<th>5<br>11/50 - 12/35</th>
+ 	<th>6<br>12-45 - 13/30</th>
+ 	<th>7<br>13/40 - 14/25</th>
+ 	<th>8<br>14/35 - 15/20</th>
+ 	<tr>
+ 		<th>Pondělí</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th class="dostdobry">AJ 21</th>
+ 		<th class="nicmoc">M 13</th>
+ 		<th class="dostdobry">PaD 45</th>
+ 		<th class="dostdobry">PaD 45</th>
+ 		<th class="nicmoc">TVy 7</th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Úterý</th>
+ 		<th class="nicmoc">ČJ 14</th>
+ 		<th class="nicmoc">M  14</th>
+ 		<th class="nicmoc">F  14</th>
+ 		<th class="dostdobry">AJ 26</th>
+ 		<th class="dostdobry">Volno</th>
+ 		<th class="nicmoc">TeA 1</th>
+ 		<th class="velkyspatny">GrW 41</th>
+ 		<th class="velkyspatny">GrW 41</th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Středa</th>
+ 		<th></th>
+ 	    <th class="nicmoc">ČJ 18</th>
+ 	    <th class="dostdobry">NJ 10</th>
+ 	    <th class="nicmoc">DJ 7</th>
+ 	    <th class="nicmoc">TeA 1</th>
+ 	    <th class="dostdobry">Volno</th>
+ 	    <th class="nicmoc">Fy 34</th>
+ 	    <th class="velkyspatny">Kilásek</th>
+ 	    <th class="velkyspatny">ZaE 34</th>
+
+ 	</tr>
+
+ 	<tr>
+ 		<th>Čtvrtek</th>
+ 		<th class="nicmoc">TVy 26</th>
+ 		<th class="nicmoc">TVy 26</th>
+ 		<th class="dostdobry">ASW 27</th>
+ 		<th class="dostdobry">ASW 27</th>
+ 		<th class="dostdobry">NJ 10</th>
+ 		<th class="nicmoc">PaD 1</th>
+ 		<th class="dostdobry">AJ 44</th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Pátek</th>
+ 		<th></th>
+ 		<th class="nicmoc">M 20</th>
+ 		<th class="dostdobry">Kilásek</th>
+ 		<th class="velkyspatny">ZaE 46</th>
+ 		<th class="dostdobry">ASW 16</th>
+ 		<th class="nicmoc">ČJ 16</th>
+ 		<th class="nicmoc">M 16</th>
+ 		<th class="nicmoc">D 16</th>
+ 		<th></th>
+ 	</tr>
+ </table>
+
+
+
+
+<h2 id="nemcina">Němčina</h2>
+ <table class="nemcina">
+ 	<th>Čas<br>Den</th>
+ 	<th>0<br>7/10 - 7/55</th>
+ 	<th>1<br>8/00 - 8/45</th>
+ 	<th>2<br>8/55 - 9/40</th>
+ 	<th>3<br>10/00 - 10/45</th>
+ 	<th>4<br>10/55 - 11/40</th>
+ 	<th>5<br>11/50 - 12/35</th>
+ 	<th>6<br>12-45 - 13/30</th>
+ 	<th>7<br>13/40 - 14/25</th>
+ 	<th>8<br>14/35 - 15/20</th>
+
+ 	<tr>
+ 		<th>Pondělí</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Úterý</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Středa</th>
+ 		<th></th>
+ 	    <th></th>
+ 	    <th>NJ 10</th>
+ 	    <th></th>
+ 	    <th></th>
+ 	    <th></th>
+ 	    <th></th>
+ 	    <th></th>
+ 	    <th></th>
+
+ 	</tr>
+
+ 	<tr>
+ 		<th>Čtvrtek</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th>NJ 10</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Pátek</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+ </table> 
+
+<h2 id="rustina">Ruština</h2>
+ <table class="rustina">
+ 	<th>Čas<br>Den</th>
+ 	<th>0<br>7/10 - 7/55</th>
+ 	<th>1<br>8/00 - 8/45</th>
+ 	<th>2<br>8/55 - 9/40</th>
+ 	<th>3<br>10/00 - 10/45</th>
+ 	<th>4<br>10/55 - 11/40</th>
+ 	<th>5<br>11/50 - 12/35</th>
+ 	<th>6<br>12-45 - 13/30</th>
+ 	<th>7<br>13/40 - 14/25</th>
+ 	<th>8<br>14/35 - 15/20</th>
+
+ 	<tr>
+ 		<th>Pondělí</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Úterý</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Středa</th>
+ 		<th></th>
+ 	    <th></th>
+ 	    <th>RJ 11</th>
+ 	    <th></th>
+ 	    <th></th>
+ 	    <th></th>
+ 	    <th></th>
+ 	    <th></th>
+ 	    <th></th>
+
+ 	</tr>
+
+ 	<tr>
+ 		<th>Čtvrtek</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th>RJ 25</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+
+ 	<tr>
+ 		<th>Pátek</th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 		<th></th>
+ 	</tr>
+ </table>
+<div class="nabidka">
+ <a href="#nabidka">Všechny hodiny</a> 
+</div>
+{% endblock %}
+</body>
+
+</html>

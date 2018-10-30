@@ -1,0 +1,28 @@
+rbody{
+	font-family: "Open Sans";
+}
+
+table, th, td{
+	border: 3px solid black;
+}
+
+.velkyspatny{
+	background-color: red;
+}
+
+.dostdobry{
+	background-color: green;
+}
+
+.nicmoc{
+	background-color: yellow;
+}
+
+.nadpis{
+	text-align: center;
+}
+
+.nabidka{
+	text-align: center;
+	border: 2px groove purple;
+}

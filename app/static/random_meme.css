@@ -1,0 +1,14 @@
+body{
+	font-family: "Open Sans";
+	text-align: center;
+	background-image: url("rndmmm.jpg");
+}
+
+.disclaimer{
+	color: red;
+}
+
+.tlacitko{
+	height: 25px;
+	width: 50px;
+}
