@@ -25,4 +25,5 @@ table, th, td{
 .nabidka{
 	text-align: center;
 	border: 2px groove purple;
+	margin-top: 50px;
 }

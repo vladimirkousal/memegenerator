@@ -5,15 +5,15 @@
     </head>
     <body>
         <div class="nabidka">
-            <a href="{{ url_for("index") }}">Hlavní stránka</a>
-            <a href="{{ url_for("rozvrh") }}">Rozvrh</a>
-            <a href="{{ url_for("random_meme") }}">Random meme</a>
-            <a href="{{ url_for("countdown") }}">PaDko</a>
+            <a class="jedna" href="{{ url_for("index") }}">Hlavní stránka</a>
+            <a class="dva" href="{{ url_for("rozvrh") }}">Rozvrh</a>
+            <a class="tri" href="{{ url_for("random_meme") }}">Random meme</a>
+            <a class="ctyri" href="{{ url_for("countdown") }}">PaDko</a>
             {% if current_user.is_anonymous %}
-            <a href="{{ url_for("login") }}">Přihlásit se</a>
+            <a class="pet" href="{{ url_for("login") }}">Přihlásit se</a>
             {% else %}
-            <a href="{{ url_for('user', username=current_user.username) }}">Profil</a>
-            <a href="{{ url_for("logout") }}">Odhlásit se</a>
+            <a class="sest" href="{{ url_for('user', username=current_user.username) }}">Profil</a>
+            <a class="sedm" href="{{ url_for("logout") }}">Odhlásit se</a>
             {% endif %}
         </div>
         <hr>
